@@ -5,7 +5,7 @@ public class Program {
 
   public static void main(String[] args) throws Exception {
     ArrayList<Surname> Ivanov = new ArrayList<>();
-    PeopleRead p =new PeopleRead();
+    PeopleRead p = new PeopleRead();
     p.PRead("people.txt", Ivanov);
     Print.PrintPeople(Ivanov);
 
@@ -37,6 +37,6 @@ public class Program {
     PeopleWrit.PWrite("people.txt", Ivanov);
     Search s = new Search();
     s.SearchParents(Ivanov);
-    s.SearchGrandParents(Ivanov);   
+    s.SearchGrandParents(Ivanov);
   }
 }

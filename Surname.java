@@ -1,4 +1,4 @@
-public class Surname {
+public abstract class Surname {
     protected Integer id;
     protected String Name;
     protected Integer year_of_birth;
@@ -18,18 +18,6 @@ public class Surname {
     public String getStatus() {
         return Status;
     }
-
-    // public String get_f_Name() {
-    // return Name;
-    // }
-
-    // public Integer getIdName() {
-    // return id;
-    // }
-
-    // public Integer getYear_of_birth() {
-    // return year_of_birth;
-    // }
 
     @Override
     public String toString() {

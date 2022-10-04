@@ -12,10 +12,7 @@ public class InputPeople {
         System.out.printf("Год рождения %s введен не коректно (человек еще не родился)\n", str[2]);
         continue;
       }
-      // while (true) {
-      // System.out.printf("Введите статус (1-прародитель; 2-родитель; 3-ребенок;
-      // 4-внук): ");
-      // str[2] = input.nextLine();
+
       if (Integer.parseInt(str[2]) < 1 && Integer.parseInt(str[2]) > 4) {
         System.out.printf("Статус %s введен не корректно", str[2]);
         continue;
@@ -39,4 +36,4 @@ public class InputPeople {
   }
   // input.close();
 }
-// }
+
